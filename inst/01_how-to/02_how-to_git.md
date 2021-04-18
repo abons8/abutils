@@ -60,6 +60,14 @@ Here's how you check the difference between your staging area and commit history
 git diff --staged
 ```
 
+# Creating a new branch
+
+
+```bash
+git checkout -b <branch-name>
+git push --set-upstream <remote-name> <branch-name>
+```
+
 # Goodbye!
 
 See you later!
