@@ -67,6 +67,27 @@ git checkout -b <branch-name>
 git push --set-upstream <remote-name> <branch-name>
 ```
 
+# Merging a branch
+
+First you ensure your feature branch has a commit history you want to pull, then you pull into the desired branch.
+
+If working without a remote branch, starting on branch `<branch-you-want-to-pull-from>`:
+
+```{bash}
+git status # ensure your branch is at a state you'd like to pull from
+git checkout <branch-you-want-to-pull-into>
+git pull <branch-you-want-to-pull-from>
+```
+
+If working with a remote branch, starting on branch `<branch-you-want-to-pull-from>`:
+
+```{bash}
+git status # ensure your branch is at a state you'd like to pull from
+git push # ensure remote branch is also up-to-date
+git checkout <branch-you-want-to-pull-into>
+git pull origin <branch-you-want-to-pull-from>
+```
+
 # Goodbye!
 
 See you later!

@@ -1630,8 +1630,21 @@ div.tocify {
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">git</span> checkout -b <span class="op">&lt;</span>branch-name<span class="op">&gt;</span></span>
 <span id="cb3-2"><a href="#cb3-2"></a><span class="fu">git</span> push --set-upstream <span class="op">&lt;</span>remote-name<span class="op">&gt;</span> <span class="op">&lt;</span>branch-name<span class="op">&gt;</span></span></code></pre></div>
 </div>
+<div id="merging-a-branch" class="section level1">
+<h1><span class="header-section-number">6</span> Merging a branch</h1>
+<p>First you ensure your feature branch has a commit history you want to pull, then you pull into the desired branch.</p>
+<p>If working without a remote branch, starting on branch <code>&lt;branch-you-want-to-pull-from&gt;</code>:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">git</span> status <span class="co"># ensure your branch is at a state you&#39;d like to pull from</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="fu">git</span> checkout <span class="op">&lt;</span>branch-you-want-to-pull-into<span class="op">&gt;</span></span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="fu">git</span> pull <span class="op">&lt;</span>branch-you-want-to-pull-from<span class="op">&gt;</span></span></code></pre></div>
+<p>If working with a remote branch, starting on branch <code>&lt;branch-you-want-to-pull-from&gt;</code>:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">git</span> status <span class="co"># ensure your branch is at a state you&#39;d like to pull from</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="fu">git</span> push <span class="co"># ensure remote branch is also up-to-date</span></span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="fu">git</span> checkout <span class="op">&lt;</span>branch-you-want-to-pull-into<span class="op">&gt;</span></span>
+<span id="cb5-4"><a href="#cb5-4"></a><span class="fu">git</span> pull origin <span class="op">&lt;</span>branch-you-want-to-pull-from<span class="op">&gt;</span></span></code></pre></div>
+</div>
 <div id="goodbye" class="section level1">
-<h1><span class="header-section-number">6</span> Goodbye!</h1>
+<h1><span class="header-section-number">7</span> Goodbye!</h1>
 <p>See you later!</p>
 </div>
 
