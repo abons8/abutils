@@ -1,0 +1,93 @@
+---
+title: "Deciding what the fuck to do with Jake"
+subtitle: "During COVID-19"
+author: "His Dad"
+institute: "Infected Ontario"
+date: "2021-04-18 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+Corona Virus
+
+---
+class: inverse, center, middle
+
+# It is impossible to know the future...
+
+### ... but it is possible to shape it a little.
+
+#### ~ Dad
+
+---
+
+# Four broad options
+
+1. Jake in Day Care with Nanny and other kids (**4-6** added direct families)
+  - **High added risk to health** and **constant uncertainty**
+  - **Easy now** (stick to plan) and **easy later** (stick to plan)
+
+2. Jake in Our Home with Nanny (**1** added direct family)
+  - **Moderate added risk to health** and **constant uncertainty**
+  - **Hard now** (find a nanny) and **easy later** (have a nanny)
+  
+3. Jake in Our Home with Us + Grandparents (**1** added direct family)
+  - **Low added risk to health** and **minimal uncertainty**
+  - **Easy now** (converse with Grandma), **hard later** (re-initiate care)
+      - Might be easy later if current nanny holds spot (let's ask)
+
+4. Jake in Our Home with Us (**0** added direct families)
+  - **No added risk to health**, no uncertainty
+  - **Easy now** (converse with work), **hard later** (re-initiate care)
+
+---
+
+# Things we know
+
+- Ontario just extended the lock down till **May 20, 2021**
+  - Source: [Latest announcement; lockdown extension](https://www.youtube.com/watch?v=AN6LhnbiqkQ&t=150s)
+  - Source: [From the news](https://news.ontario.ca/en/release/61192/ontario-strengthens-enforcement-of-stay-at-home-order)
+
+- Ontario nurses and ICUs are in horrible condition
+  - Source: [Ontario doctor describes COVID-19 'catastrophe'](https://www.youtube.com/watch?v=jo7g83bIqAY)
+  
+- The earliest Mom and Dad can be vaccinated will by **July, 2021**
+  - Source: [Ontario Government plan](https://covid-19.ontario.ca/covid-19-vaccines-ontario?gclid=Cj0KCQjwse-DBhC7ARIsAI8YcWLfermmvKV4QDwx_2C8hgfZ6V7gsh5ZWU5rNoyYKnf5FjRzWRfYgm4aAtwwEALw_wcB&gclsrc=aw.ds#covid-19-vaccine-distribution-task-force)
+
+- The earliest Jake can be vaccinated is **unknown**
+  - Immune systems in children are different compared to those in adults
+  - There is no 
+
+---
+
+# Things we don't know
+
+## Can determine
+
+- Can we keep our daycare spot with delayed entry (eg, July, 2021)?
+  - **Action:** Ask Day Care Nanny about options
+  - **Action:** Understand Day Care vaccination priority
+
+- How long and how frequently can Grandparents help out?
+  - **Action:** Have serious conversation with Grandma, Granddad Bonner
+  - **Action:** Decide whether to ask other Grandparents
+
+- How flexible can hours at work be?
+  - **Action:** Ask about options more seriously
+
+---
+
+# Making a decision
+
+---
